@@ -1,0 +1,33 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('fonts/Norse-Bold.otf');
+}
+
+* {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 24px;
+  color: #111;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  color: #333;
+}
+
+input {
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #596D48;
+}
