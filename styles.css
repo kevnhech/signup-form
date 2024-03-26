@@ -60,8 +60,12 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #111;
+}
+
+h2 > em {
+  font-size: 1em;
 }
 
 p {
