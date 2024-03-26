@@ -38,6 +38,29 @@ body {
 
 #s-right {
   width: 70vw;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+.s-right-intro {
+  padding: 0px 3em;
+  width: 55%;
+}
+
+.form-container {
+  padding: 1em 3em 2em 3em;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.btn-container {
+  padding: 0px 3em;
 }
 
 /* Fonts */
@@ -74,6 +97,9 @@ p {
 
 label {
   color: #333;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 input {
@@ -95,4 +121,8 @@ input {
 
 .source-text > a {
   color: white;
+}
+
+.form-container > h2 {
+  margin: 0;
 }
